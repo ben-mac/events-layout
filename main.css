@@ -1,0 +1,35 @@
+:root {
+  --bg: #fafafa;
+  --white: #ffffff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;;
+}
+
+body {
+  background-color: var(--bg);
+  margin: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  background-color: var(--bg);
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.event {
+  background-color: var(--white);;
+}
