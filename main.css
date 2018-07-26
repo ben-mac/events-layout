@@ -1,6 +1,7 @@
 :root {
   --bg: #fafafa;
   --white: #ffffff;
+  --border: #f3f2ee;
 }
 
 .uppercase {
@@ -26,10 +27,32 @@ body {
 
 .events {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .event {
-  background-color: var(--white);;
+  background-color: var(--white);
+  border: 1px solid var(--border);
+}
+
+.event--large-img {
+  display: flex;
+}
+
+.event--large-img > * {
+  flex: 1;
+}
+
+.event__image--bg {
+  background-size: cover;
+}
+
+.event__card {
+  padding: 20px 20px 15px;
+}
+
+.event__image {
+  margin: 0;
+  padding: 0;
 }
