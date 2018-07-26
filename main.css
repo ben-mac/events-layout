@@ -93,8 +93,6 @@ footer {
 /* Second row of events */
 .more-events {
   display: none;
-  direction: rtl;
-  text-align: left;
 }
 
 .more-events.open {
