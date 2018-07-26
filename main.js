@@ -1,4 +1,10 @@
 // Show second row of events when button clicked
-$('.load-more').click(function() {
-  $('.more-events').addClass('open');
-});
+
+const loadMore = document.querySelector('.load-more');
+const events = document.querySelector('.more-events');
+
+function addClass() {
+  events.classList.add('open');
+};
+
+loadMore.addEventListener('click', addClass);
