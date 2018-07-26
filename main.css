@@ -22,6 +22,10 @@ body {
   color: var(--text);
 }
 
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1440px;
@@ -31,7 +35,7 @@ body {
 .events {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 .event {
@@ -42,9 +46,6 @@ body {
 
 .event--large-img {
   grid-template-columns: 1.05fr 1fr;
-}
-
-.event--large-img > * {
 }
 
 .event__image--bg {
@@ -67,8 +68,20 @@ body {
   font-weight: 600;
 }
 
+.event__body {
+  margin-bottom: 40px;
+}
+
 .event__details {
   align-self: end;
+}
+
+.event__details span {
+  display: block;
+}
+
+.event__date {
+  font-weight: 700;
 }
 
 .event__image {
