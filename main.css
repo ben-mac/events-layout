@@ -80,6 +80,18 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* Second row of events */
+.more-events {
+  display: none;
+  direction: rtl;
+  text-align: left;
+}
+
+.more-events.open {
+  display: grid;
 }
 
 /* Event Cards */
