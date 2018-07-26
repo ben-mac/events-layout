@@ -133,11 +133,13 @@ footer {
 }
 
 .event__body {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
 .event__details {
   align-self: end;
+  font-size: 14px;
 }
 
 .event__details span {
