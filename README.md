@@ -1,3 +1,3 @@
 # events-layout
 
-HTML, CSS, JS
+HTML, CSS, JS layout test
